@@ -11,5 +11,5 @@ Once created, click the new application registration and choose **Required permi
 
 ![](./images/permissions.png)
 
-##Edit code
+## Edit code
 In Program.cs, replace the client ID guid with the GUID from your application, and replace the name of your tenant in the authority parameter. Run the sample, you should now be able to acquire a token, the code will query the Graph API, and your last name will be displayed.
