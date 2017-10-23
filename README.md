@@ -9,7 +9,7 @@ Go to the Azure Portal, click on **App Registrations**, and choose **New applica
 
 Once created, click the new application registration and choose **Required permissions**. Click the **Add** button and choose the **Microsoft Graph** API. Under permissions, choose **View users' basic profile**, **View users' email address**, and **Access user's data anytime**. 
 
-(./images/permissions.png)[]
+![](./images/permissions.png)
 
 ##Edit code
 In Program.cs, replace the client ID guid with the GUID from your application, and replace the name of your tenant in the authority parameter. Run the sample, you should now be able to acquire a token, the code will query the Graph API, and your last name will be displayed.
